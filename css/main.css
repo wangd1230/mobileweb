@@ -1,0 +1,178 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body{
+	width: 100%;
+}
+.container{
+	width: 100%;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix{
+	*+height:1%;
+}
+.header{
+	background-color: #3c3c46;
+	width: 100%;
+}
+#logo{
+	float: left;
+	width: 15%;
+}
+/*#search{
+	float: left;
+	margin-top: 1.5%;
+	margin-left: 3%;
+	width: 15%;
+}*/
+.header p{
+	color: white;
+	float: right;
+	margin-right: 2%;
+	margin-top: 2%;
+	width: 2.5 %;
+}
+.search{
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 20%;
+	background-color: white;
+	float: left;
+	margin-top: 1.5%;
+}
+select{
+	border-radius: 10px;
+	border: none;
+	width: 25%;
+	outline: none;
+}
+input{
+	border: none;
+	width: 60%;
+	outline: none;
+}
+#search{
+	width: 7%;
+	
+}
+.nav{
+	background-color: #4d4c54;
+	height: 10%;
+	color: white;
+	width: 100%;
+}
+ul{
+	width: 100%;
+	margin-left:2%; 
+}
+
+.nav li{
+	float: left;
+	list-style: none;
+	margin-top: 0.3%;
+	width: 5%;
+	margin-left: 0%;
+    color: white;
+    text-align: center;
+}
+#first{
+	border-bottom: 3px solid green;
+}
+.nav a li:hover{
+	border-bottom: 3px solid green;
+	
+}
+.main{
+	background-color: #8d7ce4;
+	width: 100%;
+	padding: 0;
+}
+.left{
+    width: 65%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+#carousel{
+	width: 85%;
+}
+#myCarousel{
+	width: 100%;
+	margin-top: 2%;
+}
+.right{
+	background-color: #4f455e;
+	float: left;
+	width: 20%;
+	height: 250px;
+
+	color: white;
+	opacity: 0.7;
+	margin-top: 1%;
+}
+.right li{
+    margin-top: 2%;
+}
+.footer{
+	margin-top: 2%;
+	width: 90%;	
+}
+.top{
+	width: 100%;
+	color: green;
+}
+#icon1{
+	float: left;
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+#p1{
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+#icon2{
+	float: right;
+	margin-top: 1%;
+	margin-right: 0.5%;
+}
+#p2{
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+.bottom{
+	width: 100%;
+	margin-top: 2%;
+	color: #72798c;
+}
+.bl{
+	float: left;
+	margin-left: 2%;
+}
+.bt{
+	float: left;
+	margin-left: 2%;
+}
+.bb{
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+#t1{
+	width: 100%;
+}
+.t2{
+	width: 15%;
+}
+.t3{
+	width: 15%;
+}
